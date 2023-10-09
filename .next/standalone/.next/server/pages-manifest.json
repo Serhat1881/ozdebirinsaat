@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.js",
+  "/api/hello": "pages/api/hello.js",
+  "/ekip": "pages/ekip.js",
+  "/hizmetlerimiz/[detail]": "pages/hizmetlerimiz/[detail].js",
+  "/hizmetlerimiz": "pages/hizmetlerimiz.js",
+  "/iletisim": "pages/iletisim.js",
+  "/": "pages/index.js",
+  "/neden-biz": "pages/neden-biz.js",
+  "/referanslarimiz": "pages/referanslarimiz.js",
+  "/referanslarimiz/[detail]": "pages/referanslarimiz/[detail].js",
+  "/_error": "pages/_error.js",
+  "/tr/500": "pages/tr/500.html"
+}

@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"..\\components\\displays\\DisplayContentHtml.tsx -> react-imgix":{id:3561,files:["static/chunks/561.ce75a2279fe581e7.js"]}};

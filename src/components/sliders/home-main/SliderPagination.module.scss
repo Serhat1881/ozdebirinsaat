@@ -1,0 +1,46 @@
+.SliderPaginationWrapper{
+    width: 40px;
+    height: 50px;
+    font-size: 40px;
+    position: relative;
+    bottom: 0;
+    top: 0;
+
+    @media screen and (max-width: 900px) {
+        width: 40px;
+        height: 40px;
+    }
+        
+
+    :global .divider {
+        position: absolute;
+        width: 48px;
+        top: -5px;
+        transform: translate(-5px, 29px) rotate(130deg);
+        height: 1px;
+        background-color: white;
+
+        @media screen and (max-width: 900px) {
+            top: -9px;
+        }
+    }
+
+    :global .swiper{
+        &-pagination{
+            &-current{
+                font-size: 24px;
+                top:0;
+                left: 0;
+                position: absolute;
+                color: white
+            }
+            &-total{
+                font-size: 24px;
+                position: absolute;
+                bottom: 0;  
+                right: 0;
+                color: white
+            }
+        }
+    }
+}
